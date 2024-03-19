@@ -5,6 +5,17 @@
 .main1 {
     color: #6DFD72;
 }
+
 .main2 {
     color: #005CFF;
+}
+#caption img {
+    text-shadow: 500px 500px 20px #62E8D1;
+    min-width: 500px;
+    background-color: #26D3E8;
+    background-position: 50px 50px;
+    border-radius: 20px;
+}
+#maincontent img {
+    border-radius: 20px;
 }
