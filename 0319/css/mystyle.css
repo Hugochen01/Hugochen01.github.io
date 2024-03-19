@@ -1,21 +1,30 @@
 @charset "utf-8";
 .title1 {
     color: #FF0004;
+    background-color: #65EBC4;
 }
 .main1 {
     color: #6DFD72;
+    background-color: #74E0EB;
 }
 
 .main2 {
     color: #005CFF;
+    background-color: #6A83FB;
+    -webkit-box-shadow: 20px 0px #F1F35D;
+    box-shadow: 20px 0px #F1F35D;
 }
 #caption img {
-    text-shadow: 500px 500px 20px #62E8D1;
+    text-shadow: 500px 500px 20px #8862E8;
     min-width: 500px;
     background-color: #26D3E8;
     background-position: 50px 50px;
     border-radius: 20px;
+    -webkit-box-shadow: 20px 20px #CF79F2;
+    box-shadow: 20px 20px #CF79F2;
 }
 #maincontent img {
     border-radius: 20px;
+    -webkit-box-shadow: 20px 0px #EBF97F;
+    box-shadow: 20px 0px #EBF97F;
 }
