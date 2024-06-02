@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html>
-   <style>
+  <style>
     .card-container {
       display: grid;
       grid-template-columns: repeat(5, 1fr);
@@ -10,7 +10,7 @@
       margin-top: 50px; /* 頁面頂部的間距 */
     }
     .card {
-      width: 200px; /* 調整寬度以適應每行五個名片 */
+      width: 100%; /* 讓名片自適應容器寬度 */
     }
   </style>
 	<head>
@@ -43,8 +43,9 @@
 
 		
 
-  <body>
+<body>
   <div class="card-container">
+    <!-- 第一行 -->
     <div class="card text-center">
       <div class="card-header">0305 - 我的名片</div>
       <div class="card-body">
