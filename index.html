@@ -1,7 +1,18 @@
 <!DOCTYPE html>
 
 <html>
-
+  <style>
+    .card-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px; /* 名片之間的間距 */
+      margin-top: 50px; /* 頁面頂部的間距 */
+    }
+    .card {
+      width: 400px;
+    }
+  </style>
 	<head>
 		<meta charset="utf-8">
 		<title>我的網頁</title>
@@ -31,15 +42,24 @@
 <p>&nbsp;</p>
 
 		
-<div class="card text-center" style="width: 400px;">
-  <div class="card-header">0305 - 我的名片</div>
-  <div class="card-body">
-    <a href="#" class="btn btn-primary">上課內容</a>
+<body>
+  <div class="card-container">
+    <div class="card text-center">
+      <div class="card-header">0305 - 我的名片</div>
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">上課內容</a>
+      </div>
+      <div class="card-footer text-muted">2024年</div>
+    </div>
+    <div class="card text-center">
+      <div class="card-header">0312 - 網頁容器</div>
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">上課內容</a>
+      </div>
+      <div class="card-footer text-muted">2024年</div>
+    </div>
   </div>
-  <div class="card-footer text-muted">2024年</div>
-</div>
-
-		
+</body>	
 		
 	</body>
 
