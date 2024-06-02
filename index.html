@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 
 <html>
-  <style>
+   <style>
     .card-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
       gap: 20px; /* 名片之間的間距 */
+      justify-content: center;
       margin-top: 50px; /* 頁面頂部的間距 */
     }
     .card {
-      width: 400px;
+      width: 200px; /* 調整寬度以適應每行五個名片 */
     }
   </style>
 	<head>
@@ -20,7 +20,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 	</head>
 	
-	<body>
+
 	
 
 	<h1>這是Hugochen01的第一個網頁</h1>
@@ -43,6 +43,7 @@
 
 		
 
+  <body>
   <div class="card-container">
     <div class="card text-center">
       <div class="card-header">0305 - 我的名片</div>
@@ -58,7 +59,6 @@
       </div>
       <div class="card-footer text-muted">2024年</div>
     </div>
-    <!-- 重複以上結構，共計10個名片 -->
     <div class="card text-center">
       <div class="card-header">0305 - 我的名片</div>
       <div class="card-body">
@@ -73,7 +73,35 @@
       </div>
       <div class="card-footer text-muted">2024年</div>
     </div>
-    <!-- 繼續添加直到總數達到10個名片 -->
+    <div class="card text-center">
+      <div class="card-header">0305 - 我的名片</div>
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">上課內容</a>
+      </div>
+      <div class="card-footer text-muted">2024年</div>
+    </div>
+    <!-- 第二行 -->
+    <div class="card text-center">
+      <div class="card-header">0305 - 我的名片</div>
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">上課內容</a>
+      </div>
+      <div class="card-footer text-muted">2024年</div>
+    </div>
+    <div class="card text-center">
+      <div class="card-header">0305 - 我的名片</div>
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">上課內容</a>
+      </div>
+      <div class="card-footer text-muted">2024年</div>
+    </div>
+    <div class="card text-center">
+      <div class="card-header">0305 - 我的名片</div>
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">上課內容</a>
+      </div>
+      <div class="card-footer text-muted">2024年</div>
+    </div>
     <div class="card text-center">
       <div class="card-header">0305 - 我的名片</div>
       <div class="card-body">
