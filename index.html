@@ -45,31 +45,24 @@
             width: 100%;
             z-index: 1000;
         }
-        .navbar a {
+        .navbar a, .dropdown .dropbtn {
             float: left;
             display: block;
             color: white;
             text-align: center;
-            padding: 14px 100px; /* 調整內邊距使導航項目靠近 */
+            padding: 14px 10px;
             text-decoration: none;
+            background-color: inherit;
+            border: none; /* 添加這行以消除默認按鈕邊框 */
+            font-size: 16px;
         }
-        .navbar a:hover {
+        .navbar a:hover, .dropdown:hover .dropbtn {
             background-color: #ddd;
             color: black;
         }
         .dropdown {
             float: left;
             overflow: hidden;
-        }
-        .dropdown .dropbtn {
-            font-size: 16px;
-            border: none;
-            outline: none;
-            color: white;
-            padding: 14px 100px; /* 調整內邊距使導航項目靠近 */
-            background-color: inherit;
-            font-family: inherit;
-            margin: 0;
         }
         .dropdown-content {
             display: none;
